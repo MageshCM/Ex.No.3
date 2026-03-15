@@ -1,87 +1,56 @@
-# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
+# Experiment 3: Prompt Engineering Techniques
 ### DATE: 05-03-2026                                                                          
 ### REGISTER NUMBER : 212223220053
-### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
 
-### **Explanation:**  
+## Aim
+To study and demonstrate different prompt engineering techniques such as **Straightforward Prompts**, **Tabular Format Prompting**, **Missing Word Prompting**, and **Preceding Question Prompting**, and observe how they influence AI-generated responses.
 
-Use Case Chosen (from Unit 5): Artificial Intelligence – Chatbots in Customer Service
+## AI Tool Used
+**ChatGPT**
+ChatGPT is a generative AI tool developed by OpenAI. It is used to generate text responses based on user prompts and helps demonstrate various prompt engineering strategies.
 
-Artificial Intelligence (AI) is widely used in modern businesses to automate services and improve user interaction. One common application is AI-powered chatbots, which are computer programs designed to simulate human conversation. These chatbots assist customers by answering questions, providing support, and solving common issues without requiring human intervention.
+---
 
-Using prompt engineering techniques, different types of prompts can be designed to generate structured and meaningful responses from AI systems.
+## 💡 Prompting Techniques & Examples
 
-### **Procedure & Example Prompts**
+### 1. Straightforward Prompt
+A straightforward prompt directly asks the AI for information without additional complex structure or constraints.
 
-**1. Straightforward Prompts**
+**Example Prompt to Test:**
+> Explain the concept of cloud computing in simple terms. Give two advantages and two disadvantages.
 
-Straightforward prompts are simple and direct questions used to obtain clear and precise answers.
+### 2. Tabular Format Prompting
+This prompt instructs the AI to organize and present information specifically in a table format for better readability and comparison.
 
-Prompt 1
+**Example Prompt to Test:**
+> Create a table comparing Python, Java, and C++ based on the following features:
+> 1. Programming type
+> 2. Ease of learning
+> 3. Performance
+> 4. Common uses
 
-What is a chatbot in artificial intelligence?
+### 3. Missing Word Prompting
+In this technique, a sentence with a blank is provided, and the AI is tasked with identifying and filling in the correct missing term.
 
-Response:
-A chatbot is an AI-based software application designed to simulate human conversation and provide automated responses to user queries.
+**Example Prompt to Test:**
+> Fill in the missing word:
+> 1. The brain of the computer is the ______.
+> 2. A collection of related data stored in a computer is called a ______.
+> 3. HTML stands for ______.
 
-Prompt 2
+### 4. Preceding Question Prompting
+A preliminary question is asked to establish context or a knowledge base before the main task is presented, guiding the AI toward a more cohesive final response.
 
-List three advantages of using chatbots in customer service.
+**Example Prompt to Test:**
+> **Question 1:** What are the basic components of a computer system?
+> 
+> **Question 2:** Based on the components you listed above, explain how they work together when a user runs a program.
 
-Response:
+---
 
-Chatbots provide instant responses to customer queries.
+## 🏁 Conclusion
+From this experiment, it is observed that prompt engineering plays an important role in guiding AI systems to produce accurate and well-structured responses. Different prompting techniques help in obtaining specific types of outputs such as explanations, tables, or completed sentences. Properly designed prompts significantly improve the effectiveness and usability of AI-generated results.
 
-They operate 24/7 without human intervention.
-
-They reduce workload for customer support staff.
-
-**2. Tabular Format Prompting**
-
-Tabular prompting organizes information into structured tables for easier comparison and readability.
-
-Prompt
-
-Create a table showing different types of chatbots with their description and example use.
-
-Chatbot Type	Description	Example Use
-Rule-Based Chatbot	Responds using predefined rules and scripts.	FAQ support on websites
-AI Chatbot	Uses machine learning and NLP to understand user queries.	Virtual customer assistants
-Voice Chatbot	Interacts with users through voice commands.	Smart home assistants
-Hybrid Chatbot	Combines rule-based and AI features.	E-commerce support systems
-
-**3. Preceding Question Prompting**
-
-Preceding question prompts ask a leading question that encourages explanation and reasoning.
-
-Prompt
-
-Why are chatbots important in modern customer service systems? Explain their role.
-
-Response:
-Chatbots are important in modern customer service because they provide instant assistance to customers and reduce waiting time. They can handle multiple conversations simultaneously and respond to common queries efficiently. Businesses use chatbots to improve customer satisfaction, reduce operational costs, and provide continuous support throughout the day.
-
-**4. Missing Word Prompting**
-
-Missing word prompts use fill-in-the-blank questions to encourage recall and understanding.
-
-Prompt 1
-
-Chatbots use Natural Language ____ to understand human language.
-
-Response:
-Processing
-
-Prompt 2
-
-Many companies use chatbots to provide ____ customer support without human staff.
-
-Response:
-24/7
-
-### **Conclusion:**  
-Different prompt engineering techniques were used to generate responses related to AI chatbots in customer service. Each prompting method helps structure the interaction differently and improves the clarity and usefulness of generated responses.
-
-### **Result:**  
-Thus, prompts using Straightforward Prompting, Tabular Prompting, Preceding Question Prompting, and Missing Word Prompting were successfully designed and evaluated using the chosen scenario.  
+## ✅ Result
+The different prompt engineering techniques—Straightforward Prompting, Tabular Format Prompting, Missing Word Prompting, and Preceding Question Prompting—were successfully tested using ChatGPT. The AI generated appropriate responses for each prompt type and demonstrated how the structure of a prompt directly influences the clarity, format, and relevance of the output.
